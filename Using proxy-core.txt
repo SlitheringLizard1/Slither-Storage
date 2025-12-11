@@ -1,0 +1,9 @@
+The code is a simple proxy core ripped from a program called Lithium.js. I have condensed it into a very small file.
+
+1. Go to an html editor, I use https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro
+2. Delete the code in the box, and paste the proxy core.
+3. Press run.
+4. Profit!
+
+Notes
+Try going to gointerstellar.app inside of the proxy, it is very useful. The core cannot run certain sites such as GitHub and Discord, but Interstellar can.

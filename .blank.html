@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⠀</title>
+    <link rel="stylesheet" href="/css/main.css">
+  <style>
+    form {
+  display: inline-block;
+  position: relative;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  width: 200px;
+  transition: 2s;
+}
+
+input:focus {
+  width: 500px;
+}
+  </style>
+</head>
+<body>
+  <form>
+  <input type="text" id="url" placeholder="Search..." autocomplete="off" onkeydown='if(event.key==="Enter") create()'></input>
+</form>
+</body>
+  <script>
+    function create() {
+            var url = document.getElementById('url').value;
+
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url.startsWith("https://") ? url : "https://" + url
+            win.document.body.appendChild(iframe);
+        }
+  </script>
+</html>

@@ -1,12 +1,9 @@
 # Slither-Storage
-a repository with all of the things I have collected, this is mostly for me to be able to keep data when I move
+finally updating this repo after almost a year
 
-the .z64 files are nintendo 64 roms and rom hacks, run them in neilb.net/n64wasm
-
-there are images
-
-there are thousands of proxy links
-
-and that's basically it lol
-
-(exploits and links are decoded in base64)
+# Contents
+instructions on exploits
+proxy links
+games
+roms
+other such things go look for yourself
